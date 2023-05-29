@@ -1,0 +1,10 @@
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/install/strip.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/install/local.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/test.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/pre_approach_node.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/install.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/attach_shelf_uninstall.dir
+/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/uninstall.dir

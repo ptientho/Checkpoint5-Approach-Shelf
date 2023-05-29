@@ -1,0 +1,10 @@
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:[m[K In constructor '[01m[KPreApproach::PreApproach(int&, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:38:19:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kdistance_to_obstacle[m[K' [[01;35m[K-Wunused-variable[m[K]
+   38 |             float [01;35m[Kdistance_to_obstacle[m[K = std::stof(distance_to_obstacle_arg);
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:39:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Krotation_degree[m[K' [[01;35m[K-Wunused-variable[m[K]
+   39 |             int [01;35m[Krotation_degree[m[K = std::stoi(rotation_degree_arg);
+      |                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:29:26:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargc[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   29 |         PreApproach([01;35m[Kint& argc[m[K, char** argv) : Node("pre_approach_node")
+      |                     [01;35m[K~~~~~^~~~[m[K

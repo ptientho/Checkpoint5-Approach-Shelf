@@ -1,0 +1,56 @@
+[0.038s] Invoking command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/checkpoint5/attach_shelf -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/checkpoint5/install/attach_shelf
+[0.146s] -- The C compiler identification is GNU 9.4.0
+[0.238s] -- The CXX compiler identification is GNU 9.4.0
+[0.250s] -- Check for working C compiler: /usr/bin/cc
+[0.367s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.368s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.508s] -- Detecting C compile features
+[0.509s] -- Detecting C compile features - done
+[0.513s] -- Check for working CXX compiler: /usr/bin/c++
+[0.662s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.663s] -- Detecting CXX compiler ABI info
+[0.793s] -- Detecting CXX compiler ABI info - done
+[0.812s] -- Detecting CXX compile features
+[0.813s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.867s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.868s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.034s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.196s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.493s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.807s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.816s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.852s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.853s] -- Looking for pthread.h
+[2.006s] -- Looking for pthread.h - found
+[2.006s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.176s] -- Looking for pthread_create in pthreads
+[2.300s] -- Looking for pthread_create in pthreads - not found
+[2.300s] -- Looking for pthread_create in pthread
+[2.426s] -- Looking for pthread_create in pthread - found
+[2.428s] -- Found Threads: TRUE  
+[2.716s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.941s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.105s] CMake Error at CMakeLists.txt:29 (install):
+[3.105s]   install does not recognize sub-command TARGET
+[3.105s] 
+[3.105s] 
+[3.109s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.112s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.112s] -- Configured cppcheck include dirs: 
+[3.112s] -- Configured cppcheck exclude dirs and/or files: 
+[3.114s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.114s] -- Configured cpplint exclude dirs and/or files: 
+[3.115s] -- Added test 'lint_cmake' to check CMake code style
+[3.118s] -- Added test 'uncrustify' to check C / C++ code style
+[3.118s] -- Configured uncrustify additional arguments: 
+[3.119s] -- Added test 'xmllint' to check XML markup files
+[3.126s] -- Configuring incomplete, errors occurred!
+[3.127s] See also "/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/CMakeOutput.log".
+[3.127s] See also "/home/user/ros2_ws/src/checkpoint5/build/attach_shelf/CMakeFiles/CMakeError.log".
+[3.140s] Invoked command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/checkpoint5/attach_shelf -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/checkpoint5/install/attach_shelf

@@ -1,0 +1,4 @@
+source;share/attach_shelf/local_setup.bash
+source;share/attach_shelf/local_setup.dsv
+source;share/attach_shelf/local_setup.sh
+source;share/attach_shelf/local_setup.zsh

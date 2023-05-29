@@ -1,0 +1,17 @@
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/attach_shelf/pre_approach_node
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf//launch/pre_approach.launch.xml
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/package_run_dependencies/attach_shelf
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/parent_prefix_path/attach_shelf
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/ament_prefix_path.sh
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/path.sh
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/path.dsv
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.bash
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.sh
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.zsh
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.dsv
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.dsv
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/packages/attach_shelf
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/cmake/attach_shelfConfig.cmake
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/cmake/attach_shelfConfig-version.cmake
+/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.xml
