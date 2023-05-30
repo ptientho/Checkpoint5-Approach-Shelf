@@ -40,17 +40,32 @@ class PreApproach : public rclcpp::Node
         PreApproach(int& argc, char** argv) : Node("pre_approach_node")
         {
             rcutils_logging_set_logger_level(this->get_logger().get_name(), RCUTILS_LOG_SEVERITY_INFO);
-            std::string distance_to_obstacle_arg = argv[2];
-            std::string rotation_degree_arg = argv[4];
+            
+            if (true) {
+                //access parameter from launch file
+                this->declare_parameter("obstacles", 0.3);
+                this->declare_parameter("degrees", -90);
+                
+                get_params();
+            
+            } else {
+            
+                 //////////////Argument conversion//////////////////////////
+                std::string distance_to_obstacle_arg = argv[2];
+                std::string rotation_degree_arg = argv[4];
+                distance_to_obstacle = std::stof(distance_to_obstacle_arg);
+                rotation_degree = std::stoi(rotation_degree_arg);
+            
+            
+            }
+            
             //////////////Group callback//////////////////////////
             scanner_group_ = this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
             rclcpp::SubscriptionOptions option1;
             option1.callback_group = scanner_group_;
 
             timer_group_ = this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
-             //////////////Argument conversion//////////////////////////
-            distance_to_obstacle = std::stof(distance_to_obstacle_arg);
-            rotation_degree = std::stoi(rotation_degree_arg);
+            
             //////////////Implement publisher & subscriber//////////////////////////
             vel_pub_ = this->create_publisher<robot_vel>("robot/cmd_vel", 10);
             robot_vel vel_msg;
@@ -62,8 +77,23 @@ class PreApproach : public rclcpp::Node
             odom_sub_ = this->create_subscription<robot_odom>("odom", 10, std::bind(&PreApproach::odom_callback, this, _1), option1);
             timer_ = this->create_wall_timer(50ms, std::bind(&PreApproach::move_robot, this), timer_group_);
 
-            RCLCPP_DEBUG(this->get_logger(), "distance to obstacle: %s", distance_to_obstacle_arg.c_str());
-            RCLCPP_DEBUG(this->get_logger(), "rotation degree: %s", rotation_degree_arg.c_str());
+            //RCLCPP_DEBUG(this->get_logger(), "distance to obstacle: %s", distance_to_obstacle_arg.c_str());
+            //RCLCPP_DEBUG(this->get_logger(), "rotation degree: %s", rotation_degree_arg.c_str());
+        }
+
+        void get_params()
+        {
+        
+            distance_to_obstacle =
+                this->get_parameter("obstacles").get_parameter_value().get<float>();
+            rotation_degree =
+                this->get_parameter("degrees").get_parameter_value().get<int>();
+
+            RCLCPP_INFO(this->get_logger(), "GET PARAMS, DISTANCE %f", distance_to_obstacle);
+            RCLCPP_INFO(this->get_logger(), "GET PARAMS, DEGREES %d", rotation_degree);
+            
+        
+
         }
         
     private:

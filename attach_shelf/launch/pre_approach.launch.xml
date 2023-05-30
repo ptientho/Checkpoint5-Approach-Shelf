@@ -1,3 +1,20 @@
 <!-- launch file with arguments-->
 <!-- obstacle: distance in front of the robot-->
 <!-- degree: number of degree rotation-->
+
+<launch>
+    <arg name="obstacles" default="0.3"/>
+    <arg name="degrees" default="-90"/>
+
+    <!--include launch gazebo-->
+    <!--include launch ros bridge-->
+    <!-- launch node-->
+    <node pkg="attach_shelf" exec="pre_approach_node" name="pre_approach_node">
+        <param name="obstacles" value="$(var obstacles)" />
+        <param name="degrees" value="$(var degrees)" />
+    </node>
+
+
+
+
+</launch>
