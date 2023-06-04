@@ -1,0 +1,133 @@
+[0.254s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'attach_shelf']
+[0.254s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], bazel_args=None, bazel_task=None, build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f83921d7850>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['attach_shelf'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f83921d7850>, verb_name='build', verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7f83921e1790>)
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws/src/checkpoint5'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(attach_shelf) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'attach_shelf' with type 'ros.ament_cmake' and name 'attach_shelf'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/user/ros2_ws/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/simulations/ros2_sims_ws/install
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 444 installed packages in /opt/ros/galactic
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'bazel_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'bazel_task' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'attach_shelf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'attach_shelf' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf', 'merge_install': False, 'path': '/home/user/ros2_ws/src/checkpoint5/attach_shelf', 'symlink_install': False, 'test_result_base': None}
+[0.471s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.475s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/checkpoint5/attach_shelf' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/checkpoint5/attach_shelf'
+[0.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/checkpoint5/build/attach_shelf -- -j8 -l8
+[16.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/checkpoint5/build/attach_shelf -- -j8 -l8
+[16.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/checkpoint5/build/attach_shelf
+[16.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(attach_shelf)
+[16.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/checkpoint5/build/attach_shelf
+[16.925s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf' for CMake module files
+[16.926s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf' for CMake config files
+[16.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('attach_shelf', 'cmake_prefix_path')
+[16.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/hook/cmake_prefix_path.ps1'
+[16.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/hook/cmake_prefix_path.dsv'
+[16.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/hook/cmake_prefix_path.sh'
+[16.930s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib'
+[16.930s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/bin'
+[16.930s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/pkgconfig/attach_shelf.pc'
+[16.931s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/python3.8/site-packages'
+[16.931s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/bin'
+[16.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.ps1'
+[16.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.dsv'
+[16.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.sh'
+[16.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.bash'
+[16.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.zsh'
+[16.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/colcon-core/packages/attach_shelf)
+[16.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(attach_shelf)
+[16.976s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf' for CMake module files
+[16.976s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf' for CMake config files
+[16.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('attach_shelf', 'cmake_prefix_path')
+[16.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/hook/cmake_prefix_path.ps1'
+[16.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/hook/cmake_prefix_path.dsv'
+[16.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/hook/cmake_prefix_path.sh'
+[16.980s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib'
+[16.980s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/bin'
+[16.980s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/pkgconfig/attach_shelf.pc'
+[16.980s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/python3.8/site-packages'
+[16.980s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/bin'
+[16.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.ps1'
+[16.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.dsv'
+[16.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.sh'
+[16.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.bash'
+[16.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.zsh'
+[16.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/colcon-core/packages/attach_shelf)
+[16.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.986s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.995s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.995s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.995s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.995s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.996s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[16.997s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/checkpoint5/install/local_setup.ps1'
+[17.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/checkpoint5/install/_local_setup_util_ps1.py'
+[17.001s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/checkpoint5/install/setup.ps1'
+[17.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/checkpoint5/install/local_setup.sh'
+[17.003s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/src/checkpoint5/install/_local_setup_util_sh.py'
+[17.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/checkpoint5/install/setup.sh'
+[17.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/checkpoint5/install/local_setup.bash'
+[17.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/checkpoint5/install/setup.bash'
+[17.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/src/checkpoint5/install/local_setup.zsh'
+[17.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/src/checkpoint5/install/setup.zsh'

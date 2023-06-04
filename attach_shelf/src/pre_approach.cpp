@@ -43,8 +43,8 @@ class PreApproach : public rclcpp::Node
             
             if (true) {
                 //access parameter from launch file
-                this->declare_parameter("obstacles", 0.3);
-                this->declare_parameter("degrees", -90);
+                this->declare_parameter("obstacles", 0.0);
+                this->declare_parameter("degrees", 0);
                 
                 get_params();
             

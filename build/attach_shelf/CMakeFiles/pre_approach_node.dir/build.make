@@ -84,6 +84,10 @@ pre_approach_node: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_intr
 pre_approach_node: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_c.so
 pre_approach_node: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 pre_approach_node: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+pre_approach_node: /opt/ros/galactic/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+pre_approach_node: /opt/ros/galactic/lib/libnav_msgs__rosidl_typesupport_c.so
+pre_approach_node: /opt/ros/galactic/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+pre_approach_node: /opt/ros/galactic/lib/libnav_msgs__rosidl_typesupport_cpp.so
 pre_approach_node: /opt/ros/galactic/lib/libament_index_cpp.so
 pre_approach_node: /opt/ros/galactic/lib/liblibstatistics_collector.so
 pre_approach_node: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -115,6 +119,7 @@ pre_approach_node: /opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_
 pre_approach_node: /opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 pre_approach_node: /opt/ros/galactic/lib/libtracetools.so
 pre_approach_node: /opt/ros/galactic/lib/libsensor_msgs__rosidl_generator_c.so
+pre_approach_node: /opt/ros/galactic/lib/libnav_msgs__rosidl_generator_c.so
 pre_approach_node: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 pre_approach_node: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_generator_c.so
 pre_approach_node: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_c.so

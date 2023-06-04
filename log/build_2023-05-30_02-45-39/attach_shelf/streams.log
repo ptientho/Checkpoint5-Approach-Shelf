@@ -1,0 +1,62 @@
+[0.022s] Invoking command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/checkpoint5/build/attach_shelf -- -j8 -l8
+[0.502s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.216s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.376s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.105s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.151s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.194s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.727s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[3.901s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[4.214s] -- Found tf2: 0.17.3 (/opt/ros/galactic/share/tf2/cmake)
+[4.400s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.695s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.699s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.700s] -- Configured cppcheck include dirs: 
+[4.700s] -- Configured cppcheck exclude dirs and/or files: 
+[4.703s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.703s] -- Configured cpplint exclude dirs and/or files: 
+[4.706s] -- Added test 'lint_cmake' to check CMake code style
+[4.721s] -- Added test 'uncrustify' to check C / C++ code style
+[4.721s] -- Configured uncrustify additional arguments: 
+[4.723s] -- Added test 'xmllint' to check XML markup files
+[4.727s] -- Configuring done
+[4.744s] -- Generating done
+[4.747s] -- Build files have been written to: /home/user/ros2_ws/src/checkpoint5/build/attach_shelf
+[4.777s] [35m[1mScanning dependencies of target pre_approach_node[0m
+[4.818s] [ 50%] [32mBuilding CXX object CMakeFiles/pre_approach_node.dir/src/pre_approach.cpp.o[0m
+[7.165s] [01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:[m[K In constructor '[01m[KPreApproach::PreApproach(int&, char**)[m[K':
+[7.165s] [01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:40:26:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargc[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[7.166s]    40 |         PreApproach([01;35m[Kint& argc[m[K, char** argv) : Node("pre_approach_node")
+[7.166s]       |                     [01;35m[K~~~~~^~~~[m[K
+[10.092s] [01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:[m[K In constructor '[01m[KPreApproach::PreApproach(int&, char**)[m[K':
+[10.092s] [01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:42:45:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[10.093s]    42 |             [01;35m[Krcutils_logging_set_logger_level(this->get_logger().get_name(), RCUTILS_LOG_SEVERITY_INFO)[m[K;
+[10.093s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.976s] [100%] [32m[1mLinking CXX executable pre_approach_node[0m
+[16.363s] [100%] Built target pre_approach_node
+[16.375s] Invoked command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/checkpoint5/build/attach_shelf -- -j8 -l8
+[16.422s] Invoking command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/checkpoint5/build/attach_shelf
+[16.430s] -- Install configuration: ""
+[16.431s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/attach_shelf/pre_approach_node
+[16.438s] -- Set runtime path of "/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/attach_shelf/pre_approach_node" to ""
+[16.438s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf//launch
+[16.438s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf//launch/pre_approach.launch.xml
+[16.439s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/package_run_dependencies/attach_shelf
+[16.439s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/parent_prefix_path/attach_shelf
+[16.439s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/ament_prefix_path.sh
+[16.439s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/ament_prefix_path.dsv
+[16.439s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/path.sh
+[16.440s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/path.dsv
+[16.440s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.bash
+[16.440s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.sh
+[16.440s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.zsh
+[16.441s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.dsv
+[16.441s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.dsv
+[16.441s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/packages/attach_shelf
+[16.441s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/cmake/attach_shelfConfig.cmake
+[16.441s] -- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/cmake/attach_shelfConfig-version.cmake
+[16.441s] -- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.xml
+[16.443s] Invoked command in '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/checkpoint5/build/attach_shelf

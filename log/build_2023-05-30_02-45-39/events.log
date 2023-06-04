@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.000536] (attach_shelf) JobQueued: {'identifier': 'attach_shelf', 'dependencies': OrderedDict()}
+[0.000913] (attach_shelf) JobStarted: {'identifier': 'attach_shelf'}
+[0.017483] (attach_shelf) JobProgress: {'identifier': 'attach_shelf', 'progress': 'cmake'}
+[0.018329] (attach_shelf) JobProgress: {'identifier': 'attach_shelf', 'progress': 'build'}
+[0.019117] (attach_shelf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/attach_shelf:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/attach_shelf:/opt/ros/galactic'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '674732'), ('SLOT_PREFIX', 'b3d19e58-0b31-4f49-8bfa-95b50035cd9f'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25122'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'galactic'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099579] (-) TimerEvent: {}
+[0.199907] (-) TimerEvent: {}
+[0.300256] (-) TimerEvent: {}
+[0.400614] (-) TimerEvent: {}
+[0.500891] (-) TimerEvent: {}
+[0.502764] (attach_shelf) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.601029] (-) TimerEvent: {}
+[0.701414] (-) TimerEvent: {}
+[0.801749] (-) TimerEvent: {}
+[0.838751] (attach_shelf) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.901849] (-) TimerEvent: {}
+[1.002178] (-) TimerEvent: {}
+[1.102676] (-) TimerEvent: {}
+[1.203133] (-) TimerEvent: {}
+[1.216424] (attach_shelf) StdoutLine: {'line': b'-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.303284] (-) TimerEvent: {}
+[1.364308] (attach_shelf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.376868] (attach_shelf) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.403420] (-) TimerEvent: {}
+[1.503729] (-) TimerEvent: {}
+[1.604063] (-) TimerEvent: {}
+[1.704451] (-) TimerEvent: {}
+[1.804863] (-) TimerEvent: {}
+[1.905122] (-) TimerEvent: {}
+[2.005401] (-) TimerEvent: {}
+[2.105693] (-) TimerEvent: {}
+[2.205956] (-) TimerEvent: {}
+[2.306313] (-) TimerEvent: {}
+[2.406717] (-) TimerEvent: {}
+[2.507008] (-) TimerEvent: {}
+[2.607291] (-) TimerEvent: {}
+[2.707634] (-) TimerEvent: {}
+[2.808057] (-) TimerEvent: {}
+[2.852152] (attach_shelf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.908134] (-) TimerEvent: {}
+[3.008395] (-) TimerEvent: {}
+[3.105327] (attach_shelf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.108535] (-) TimerEvent: {}
+[3.151514] (attach_shelf) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.194385] (attach_shelf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.208670] (-) TimerEvent: {}
+[3.309079] (-) TimerEvent: {}
+[3.409345] (-) TimerEvent: {}
+[3.509671] (-) TimerEvent: {}
+[3.610051] (-) TimerEvent: {}
+[3.710383] (-) TimerEvent: {}
+[3.728043] (attach_shelf) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[3.810474] (-) TimerEvent: {}
+[3.901972] (attach_shelf) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[3.910562] (-) TimerEvent: {}
+[4.010824] (-) TimerEvent: {}
+[4.111173] (-) TimerEvent: {}
+[4.211619] (-) TimerEvent: {}
+[4.215042] (attach_shelf) StdoutLine: {'line': b'-- Found tf2: 0.17.3 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[4.311762] (-) TimerEvent: {}
+[4.400501] (attach_shelf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[4.411840] (-) TimerEvent: {}
+[4.512161] (-) TimerEvent: {}
+[4.612501] (-) TimerEvent: {}
+[4.696211] (attach_shelf) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.700154] (attach_shelf) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.700377] (attach_shelf) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.700554] (attach_shelf) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.704185] (attach_shelf) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.704363] (attach_shelf) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.707054] (attach_shelf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.712654] (-) TimerEvent: {}
+[4.722126] (attach_shelf) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.722351] (attach_shelf) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.723561] (attach_shelf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.728135] (attach_shelf) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.744913] (attach_shelf) StdoutLine: {'line': b'-- Generating done\n'}
+[4.747399] (attach_shelf) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/src/checkpoint5/build/attach_shelf\n'}
+[4.777813] (attach_shelf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pre_approach_node\x1b[0m\n'}
+[4.812756] (-) TimerEvent: {}
+[4.818951] (attach_shelf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pre_approach_node.dir/src/pre_approach.cpp.o\x1b[0m\n'}
+[4.912907] (-) TimerEvent: {}
+[5.013401] (-) TimerEvent: {}
+[5.113887] (-) TimerEvent: {}
+[5.214397] (-) TimerEvent: {}
+[5.314883] (-) TimerEvent: {}
+[5.415356] (-) TimerEvent: {}
+[5.515844] (-) TimerEvent: {}
+[5.616328] (-) TimerEvent: {}
+[5.716801] (-) TimerEvent: {}
+[5.817287] (-) TimerEvent: {}
+[5.917760] (-) TimerEvent: {}
+[6.018234] (-) TimerEvent: {}
+[6.118760] (-) TimerEvent: {}
+[6.219243] (-) TimerEvent: {}
+[6.319719] (-) TimerEvent: {}
+[6.420191] (-) TimerEvent: {}
+[6.520663] (-) TimerEvent: {}
+[6.621146] (-) TimerEvent: {}
+[6.721621] (-) TimerEvent: {}
+[6.822095] (-) TimerEvent: {}
+[6.922564] (-) TimerEvent: {}
+[7.023010] (-) TimerEvent: {}
+[7.123487] (-) TimerEvent: {}
+[7.165687] (attach_shelf) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KPreApproach::PreApproach(int&, char**)\x1b[m\x1b[K':\n"}
+[7.166063] (attach_shelf) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:40:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter '\x1b[01m\x1b[Kargc\x1b[m\x1b[K' [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n"}
+[7.166325] (attach_shelf) StderrLine: {'line': b'   40 |         PreApproach(\x1b[01;35m\x1b[Kint& argc\x1b[m\x1b[K, char** argv) : Node("pre_approach_node")\n'}
+[7.166564] (attach_shelf) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[7.223636] (-) TimerEvent: {}
+[7.324115] (-) TimerEvent: {}
+[7.424600] (-) TimerEvent: {}
+[7.525079] (-) TimerEvent: {}
+[7.625558] (-) TimerEvent: {}
+[7.726037] (-) TimerEvent: {}
+[7.826549] (-) TimerEvent: {}
+[7.927031] (-) TimerEvent: {}
+[8.027508] (-) TimerEvent: {}
+[8.127987] (-) TimerEvent: {}
+[8.228483] (-) TimerEvent: {}
+[8.328949] (-) TimerEvent: {}
+[8.429422] (-) TimerEvent: {}
+[8.529902] (-) TimerEvent: {}
+[8.630404] (-) TimerEvent: {}
+[8.730886] (-) TimerEvent: {}
+[8.831321] (-) TimerEvent: {}
+[8.931750] (-) TimerEvent: {}
+[9.032183] (-) TimerEvent: {}
+[9.132644] (-) TimerEvent: {}
+[9.233116] (-) TimerEvent: {}
+[9.333590] (-) TimerEvent: {}
+[9.434062] (-) TimerEvent: {}
+[9.534575] (-) TimerEvent: {}
+[9.635056] (-) TimerEvent: {}
+[9.735530] (-) TimerEvent: {}
+[9.836010] (-) TimerEvent: {}
+[9.936493] (-) TimerEvent: {}
+[10.036978] (-) TimerEvent: {}
+[10.092894] (attach_shelf) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KPreApproach::PreApproach(int&, char**)\x1b[m\x1b[K':\n"}
+[10.093271] (attach_shelf) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:42:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of '\x1b[01m\x1b[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)\x1b[m\x1b[K', declared with attribute warn_unused_result [\x1b[01;35m\x1b[K-Wunused-result\x1b[m\x1b[K]\n"}
+[10.093510] (attach_shelf) StderrLine: {'line': b'   42 |             \x1b[01;35m\x1b[Krcutils_logging_set_logger_level(this->get_logger().get_name(), RCUTILS_LOG_SEVERITY_INFO)\x1b[m\x1b[K;\n'}
+[10.093737] (attach_shelf) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.137107] (-) TimerEvent: {}
+[10.237541] (-) TimerEvent: {}
+[10.338011] (-) TimerEvent: {}
+[10.438524] (-) TimerEvent: {}
+[10.538997] (-) TimerEvent: {}
+[10.639449] (-) TimerEvent: {}
+[10.739893] (-) TimerEvent: {}
+[10.840332] (-) TimerEvent: {}
+[10.940773] (-) TimerEvent: {}
+[11.041217] (-) TimerEvent: {}
+[11.141652] (-) TimerEvent: {}
+[11.242089] (-) TimerEvent: {}
+[11.342547] (-) TimerEvent: {}
+[11.442987] (-) TimerEvent: {}
+[11.543438] (-) TimerEvent: {}
+[11.643904] (-) TimerEvent: {}
+[11.744385] (-) TimerEvent: {}
+[11.844824] (-) TimerEvent: {}
+[11.945271] (-) TimerEvent: {}
+[12.045700] (-) TimerEvent: {}
+[12.146112] (-) TimerEvent: {}
+[12.246590] (-) TimerEvent: {}
+[12.347035] (-) TimerEvent: {}
+[12.447462] (-) TimerEvent: {}
+[12.547869] (-) TimerEvent: {}
+[12.648293] (-) TimerEvent: {}
+[12.748692] (-) TimerEvent: {}
+[12.849129] (-) TimerEvent: {}
+[12.949548] (-) TimerEvent: {}
+[13.050016] (-) TimerEvent: {}
+[13.150513] (-) TimerEvent: {}
+[13.250974] (-) TimerEvent: {}
+[13.351418] (-) TimerEvent: {}
+[13.451865] (-) TimerEvent: {}
+[13.552316] (-) TimerEvent: {}
+[13.652762] (-) TimerEvent: {}
+[13.753224] (-) TimerEvent: {}
+[13.853676] (-) TimerEvent: {}
+[13.954142] (-) TimerEvent: {}
+[14.054603] (-) TimerEvent: {}
+[14.154928] (-) TimerEvent: {}
+[14.255270] (-) TimerEvent: {}
+[14.355592] (-) TimerEvent: {}
+[14.455914] (-) TimerEvent: {}
+[14.556255] (-) TimerEvent: {}
+[14.656583] (-) TimerEvent: {}
+[14.756911] (-) TimerEvent: {}
+[14.857302] (-) TimerEvent: {}
+[14.957750] (-) TimerEvent: {}
+[15.058151] (-) TimerEvent: {}
+[15.158549] (-) TimerEvent: {}
+[15.258913] (-) TimerEvent: {}
+[15.359246] (-) TimerEvent: {}
+[15.459586] (-) TimerEvent: {}
+[15.559919] (-) TimerEvent: {}
+[15.660286] (-) TimerEvent: {}
+[15.760678] (-) TimerEvent: {}
+[15.861039] (-) TimerEvent: {}
+[15.961385] (-) TimerEvent: {}
+[15.976966] (attach_shelf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pre_approach_node\x1b[0m\n'}
+[16.061509] (-) TimerEvent: {}
+[16.161857] (-) TimerEvent: {}
+[16.262206] (-) TimerEvent: {}
+[16.362580] (-) TimerEvent: {}
+[16.364035] (attach_shelf) StdoutLine: {'line': b'[100%] Built target pre_approach_node\n'}
+[16.375440] (attach_shelf) CommandEnded: {'returncode': 0}
+[16.410022] (attach_shelf) JobProgress: {'identifier': 'attach_shelf', 'progress': 'install'}
+[16.422584] (attach_shelf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf'], 'cwd': '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/src/checkpoint5/build/attach_shelf'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/attach_shelf:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/attach_shelf:/opt/ros/galactic'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/galactic/lib/python/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '674732'), ('SLOT_PREFIX', 'b3d19e58-0b31-4f49-8bfa-95b50035cd9f'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25122'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'galactic'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[16.431312] (attach_shelf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.431604] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/attach_shelf/pre_approach_node\n'}
+[16.438965] (attach_shelf) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/src/checkpoint5/install/attach_shelf/lib/attach_shelf/pre_approach_node" to ""\n'}
+[16.439197] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf//launch\n'}
+[16.439339] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf//launch/pre_approach.launch.xml\n'}
+[16.439526] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/package_run_dependencies/attach_shelf\n'}
+[16.439700] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/parent_prefix_path/attach_shelf\n'}
+[16.439908] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/ament_prefix_path.sh\n'}
+[16.440114] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/ament_prefix_path.dsv\n'}
+[16.440352] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/path.sh\n'}
+[16.440470] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/environment/path.dsv\n'}
+[16.440784] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.bash\n'}
+[16.440916] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.sh\n'}
+[16.441105] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.zsh\n'}
+[16.441322] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/local_setup.dsv\n'}
+[16.441529] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.dsv\n'}
+[16.441650] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/ament_index/resource_index/packages/attach_shelf\n'}
+[16.441769] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/cmake/attach_shelfConfig.cmake\n'}
+[16.441886] (attach_shelf) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/cmake/attach_shelfConfig-version.cmake\n'}
+[16.442002] (attach_shelf) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/src/checkpoint5/install/attach_shelf/share/attach_shelf/package.xml\n'}
+[16.443273] (attach_shelf) CommandEnded: {'returncode': 0}
+[16.462822] (-) TimerEvent: {}
+[16.509819] (attach_shelf) JobEnded: {'identifier': 'attach_shelf', 'rc': 0}
+[16.511067] (-) EventReactorShutdown: {}

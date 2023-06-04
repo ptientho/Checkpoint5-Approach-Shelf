@@ -1,0 +1,8 @@
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:[m[K In constructor '[01m[KPreApproach::PreApproach(int&, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:40:26:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargc[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   40 |         PreApproach([01;35m[Kint& argc[m[K, char** argv) : Node("pre_approach_node")
+      |                     [01;35m[K~~~~~^~~~[m[K
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:[m[K In constructor '[01m[KPreApproach::PreApproach(int&, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/checkpoint5/attach_shelf/src/pre_approach.cpp:42:45:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krcutils_ret_t rcutils_logging_set_logger_level(const char*, int)[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   42 |             [01;35m[Krcutils_logging_set_logger_level(this->get_logger().get_name(), RCUTILS_LOG_SEVERITY_INFO)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
