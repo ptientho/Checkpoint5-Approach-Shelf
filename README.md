@@ -14,3 +14,5 @@
 <p>The robot will detect the shelf using laser intensity. If found, the robot will move toward the shelf and finally lift the shelf.</p>
 
     ros2 launch attach_shelf attach_to_shelf.launch.py obstacles:=0.3 degrees:=-90 final_approach:=True
+
+[![final](https://res.cloudinary.com/marcomontalbano/image/upload/v1695301626/video_to_markdown/images/google-drive--15CeJtejYhWltBgUkOrjfqQTXfQ9NI5ia-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/15CeJtejYhWltBgUkOrjfqQTXfQ9NI5ia/view?usp=sharing "final")
